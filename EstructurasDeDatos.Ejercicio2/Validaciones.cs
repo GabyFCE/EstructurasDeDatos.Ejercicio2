@@ -125,7 +125,7 @@ namespace EstructurasDeDatos.Ejercicio2
             
             if (max.HasValue && valor > max.Value)
             {
-                error = $"Ingrese una fecha mayor o igual a {min}.";
+                error = $"Ingrese una fecha mayor o igual a {max}.";
                 return false;
             }
            
